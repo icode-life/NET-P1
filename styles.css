@@ -1,0 +1,98 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: #404040; }
+
+.resume {
+  display: flex; }
+
+.aside {
+  width: 35%;
+  padding-top: 35px;
+  background-color: #73dce7;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .aside .portrait {
+    border-radius: 50%;
+    height: 150px;
+    border: 3px solid #73dce7; }
+  .aside .title {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 35vw;
+    color: #73dce7;
+    background-color: #404040;
+    font-size: 120;
+    font-weight: lighter; }
+  .aside .contactBlock {
+    padding-left: 30px; }
+    .aside .contactBlock .contactData {
+      margin-bottom: 0px;
+      padding-top: 20px; }
+    .aside .contactBlock .contact {
+      padding-bottom: 0px;
+      margin: 0px; }
+    .aside .contactBlock .underlined {
+      text-decoration: underline; }
+  .aside .about {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    text-justify: inter-word; }
+  .aside .hobbiesBlock .hobbies {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    text-align: center; }
+  .aside .hobbiesBlock li {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .aside .hobbiesBlock .icons {
+    padding: 5px;
+    border-radius: 50%;
+    border: solid 1px; }
+
+.main {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 3em; }
+  .main span {
+    color: #73dce7; }
+  .main .sub {
+    color: #404040;
+    text-decoration: underline #73dce7 solid 3px; }
+  .main .subdiv {
+    width: 100%; }
+    .main .subdiv .subdivTitle {
+      margin-right: 3em;
+      border-bottom: solid 2px #73dce7; }
+    .main .subdiv .subdivContent {
+      display: flex;
+      flex-direction: column;
+      gap: 30px; }
+  .main .line {
+    display: flex; }
+  .main .dateLocation {
+    width: 35%;
+    display: flex;
+    flex-direction: column; }
+  .main .date, .main .location {
+    margin: 0;
+    padding: 0; }
+  .main .firm, .main .jobTitle, .main .jobDesc {
+    margin: 0;
+    padding: 0; }
+
+/*# sourceMappingURL=styles.css.map */
