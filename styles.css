@@ -53,24 +53,28 @@ i {
     justify-content: space-around;
     padding: 10px;
     align-items: center;
-    text-align: center; }
+    text-align: center;
+    padding-top: 26px; }
   .aside .hobbiesBlock li {
     height: 50px;
     width: 50px;
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    border: 1px solid #404040;
+    border-radius: 50%; }
   .aside .hobbiesBlock .icons {
     padding: 5px;
-    border-radius: 50%;
-    border: solid 1px; }
+    color: #404040;
+    font-size: larger; }
 
 .main {
   width: 65%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 3em; }
+  margin-left: 3em;
+  margin-bottom: 20px; }
   .main span {
     color: #73dce7; }
   .main .sub {
