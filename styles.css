@@ -8,6 +8,10 @@ body {
 .resume {
   display: flex; }
 
+i {
+  padding-right: 10px;
+  color: #73dce7; }
+
 .aside {
   width: 35%;
   padding-top: 35px;
@@ -37,8 +41,6 @@ body {
     .aside .contactBlock .contact {
       padding-bottom: 0px;
       margin: 0px; }
-    .aside .contactBlock .underlined {
-      text-decoration: underline; }
   .aside .about {
     padding-left: 30px;
     padding-right: 30px;
@@ -107,5 +109,15 @@ body {
   .main .jobDesc {
     text-align: justify;
     line-height: 1; }
+  .main .refs {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 4em;
+    gap: 20px; }
+    .main .refs h5, .main .refs .position, .main .refs .tel, .main .refs .email {
+      margin: 0;
+      padding: 0; }
+    .main .refs h5 {
+      text-transform: uppercase; }
 
 /*# sourceMappingURL=styles.css.map */

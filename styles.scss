@@ -13,6 +13,10 @@ body{
     display: flex;
 }
 
+i{
+    padding-right: 10px;
+    color: $primary;
+}
 .aside{
     width: 35%;
     padding-top: 35px;
@@ -45,9 +49,6 @@ body{
         .contact{
             padding-bottom: 0px;
             margin: 0px;
-        }
-        .underlined{
-            text-decoration: underline;
         }
     }
     .about {
@@ -144,5 +145,17 @@ body{
         text-align: justify;
         line-height: 1;
     }
-
+    .refs{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 4em;
+        gap: 20px;
+        h5, .position, .tel, .email{
+            margin: 0;
+            padding: 0;
+        }
+        h5{
+            text-transform: uppercase;
+        }
+    }
 }
