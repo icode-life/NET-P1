@@ -124,4 +124,40 @@ i {
     .main .refs h5 {
       text-transform: uppercase; }
 
+@media (min-height: 938px) {
+  .aside {
+    height: fit-content; }
+    .aside .portrait {
+      height: 300px; }
+    .aside .title {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      font-size: 30px; }
+    .aside .contactBlock {
+      padding: 50px; }
+      .aside .contactBlock .contactData {
+        margin-bottom: 10px;
+        font-size: 23px; }
+    .aside .about {
+      font-size: 23px;
+      padding: 50px; }
+    .aside .hobbiesBlock .hobbies {
+      padding-bottom: 26px; }
+
+  .main .nameBlock {
+    font-size: 35px;
+    padding-bottom: 50px; }
+  .main .subdiv {
+    padding-top: 50px;
+    padding-bottom: 10px; }
+    .main .subdiv .subdivTitle {
+      font-size: 30px; }
+    .main .subdiv .subdivContent {
+      padding-top: 50px;
+      padding-bottom: 0;
+      font-size: 26px;
+      gap: 60px; }
+  .main .refs {
+    font-size: 23px; } }
+
 /*# sourceMappingURL=styles.css.map */

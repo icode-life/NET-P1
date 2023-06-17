@@ -163,3 +163,56 @@ i{
         }
     }
 }
+
+@media (min-height: 938px){
+    .aside{
+        height: fit-content;
+        .portrait{
+            height: 300px;
+        }
+        .title{
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-size: 30px;
+        }
+        .contactBlock{
+            padding: 50px;
+            .contactData{
+                margin-bottom: 10px;
+                font-size: 23px;
+            }
+        }
+        .about{
+            font-size: 23px;
+            padding: 50px;
+        }
+        .hobbiesBlock{
+            .hobbies{
+                padding-bottom: 26px;
+            }
+        }
+    }
+    .main{
+        .nameBlock{
+            font-size: 35px;
+            padding-bottom: 50px;
+        }
+        .subdiv{
+            padding-top: 50px;
+            padding-bottom: 10px;
+            .subdivTitle {
+                font-size: 30px;
+            }
+        
+            .subdivContent {
+                padding-top: 50px;
+                padding-bottom: 0;
+                font-size: 26px;
+                gap: 60px;
+            }
+        }
+        .refs{
+            font-size: 23px;
+        }
+    }
+}
